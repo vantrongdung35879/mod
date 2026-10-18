@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center" android:layout_width="110.0dp" android:layout_height="110.0dp" ptr:tme_def_res_name="@string/match_icon_matchempty" />
+    <TextView android:textSize="8.0dp" android:textColor="#c3cfd3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:layout_marginRight="2.0dp" android:text="@string/tme_match_empty" />
+</LinearLayout>

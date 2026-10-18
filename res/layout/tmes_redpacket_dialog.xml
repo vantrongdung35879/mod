@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/web_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_packet" android:background="#00000000" android:layout_width="178.0dp" android:layout_height="252.0dp" android:layout_centerInParent="true" />
+    <LinearLayout android:id="@id/fl_close" android:paddingLeft="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13.0dp" android:layout_toRightOf="@id/fl_packet" android:layout_alignTop="@id/fl_packet">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_close" android:layout_width="14.0dp" android:layout_height="14.0dp" android:scaleType="fitXY" app:tme_def_res_name="@string/redpacket_panel_close" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center" android:orientation="vertical" android:id="@id/fl_sub_packets" android:layout_width="@dimen/packet_bound_width" android:layout_height="wrap_content" android:layout_marginRight="-1.0dp" android:layout_toLeftOf="@id/fl_packet" android:layout_centerVertical="true">
+        <include android:id="@id/sub0" android:layout_width="@dimen/packet_bound_width" android:layout_height="@dimen/packet_bound_height" layout="@layout/tmes_layout_sub_packet" />
+        <include android:id="@id/sub1" android:layout_width="@dimen/packet_bound_width" android:layout_height="@dimen/packet_bound_height" layout="@layout/tmes_layout_sub_packet" />
+        <include android:id="@id/sub2" android:layout_width="@dimen/packet_bound_width" android:layout_height="@dimen/packet_bound_height" layout="@layout/tmes_layout_sub_packet" />
+        <include android:id="@id/sub3" android:layout_width="@dimen/packet_bound_width" android:layout_height="@dimen/packet_bound_height" layout="@layout/tmes_layout_sub_packet" />
+        <include android:id="@id/sub4" android:layout_width="@dimen/packet_bound_width" android:layout_height="@dimen/packet_bound_height" layout="@layout/tmes_layout_sub_packet" />
+        <TextView android:textSize="7.0dp" android:textColor="#b59e85" android:ellipsize="end" android:gravity="center" android:id="@id/tv_send_interval" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:maxLines="2" />
+    </LinearLayout>
+</RelativeLayout>

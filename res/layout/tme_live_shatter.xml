@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/leftSideBar" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@id/liveContainer" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/playContainer" android:background="@color/tme_black" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/tme_player_margin_top" android:layout_marginBottom="@dimen/tme_player_margin_bottom" />
+        <LinearLayout android:orientation="vertical" android:id="@id/liveBar" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_top_bar" android:paddingTop="12.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dp" android:layout_marginEnd="4.0dp">
+                    <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_live_label" android:layout_width="49.0dp" android:layout_height="14.0dp" app:tme_def_res_name="@string/player_label_live" />
+                    <TextView android:textSize="9.0dp" android:textColor="@color/tme_live_label_color" android:layout_gravity="center" android:id="@id/txt_live_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_live" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/tme_normal_font_size" android:textColor="@color/tme_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/txt_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_live_num_icon" android:layout_width="11.0dp" android:layout_height="9.0dp" android:layout_marginRight="2.0dp" app:tme_def_res_name="@string/player_icon_pcu_small_screen" />
+                <TextView android:textSize="9.0dp" android:textColor="@color/tme_live_num_color" android:gravity="bottom" android:id="@id/txt_roomOnlineNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dp" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/ll_game_data" android:visibility="gone" android:layout_width="84.0dp" android:layout_height="18.0dp" android:layout_marginTop="-10.0dp" android:layout_marginRight="12.0dp">
+                <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_vertical" android:id="@id/iv_game_data_icon" android:layout_width="11.0dp" android:layout_height="11.0dp" android:layout_marginLeft="2.0dp" android:scaleType="centerCrop" app:tme_def_res_name="@string/game_data_icon_fullscreen" />
+                <TextView android:textSize="11.0dp" android:textColor="#f9e0ad" android:layout_gravity="center_vertical" android:id="@id/tv_game_data_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tmes_game_data_entry_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/live_notice_layout" android:visibility="gone" android:layout_width="226.0dp" android:layout_height="18.0dp" android:layout_marginTop="10.0dp" android:layout_alignTop="@id/playContainer" android:layout_centerHorizontal="true">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="226.0dp" android:layout_height="18.0dp" app:tme_def_res_name="@string/chat_background_message" />
+            <TextView android:textSize="9.0dp" android:textColor="@color/tme_live_label_color" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/txt_live_notice_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dp" android:layout_marginRight="18.0dp" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right" android:id="@id/img_live_notice_close" android:layout_width="18.0dp" android:layout_height="18.0dp" app:tme_def_res_name="@string/chat_close_message" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rightSideBar" android:layout_width="@dimen/tme_right_shatter_width" android:layout_height="match_parent" android:layout_marginLeft="8.0dp" android:layout_marginBottom="@dimen/tme_live_shatter_bottom_margin" />
+</LinearLayout>

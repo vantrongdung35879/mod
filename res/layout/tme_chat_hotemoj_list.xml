@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/tme_chat_emoj_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.LinearGradientView android:id="@id/container_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <GridView android:id="@id/grid_emoj" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:numColumns="3" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fl_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_horizontal" android:layout_width="92.0dp" android:layout_height="92.0dp" android:layout_marginTop="30.0dp" android:scaleType="centerCrop" app:tme_def_res_name="@string/hot_emoj_empty_icon" />
+        <TextView android:textSize="9.0dp" android:textColor="#c3cfd3" android:layout_gravity="center" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

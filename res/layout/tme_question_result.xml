@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tme_transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/window_container" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right|top" android:id="@id/iv_close" android:layout_width="16.0dp" android:layout_height="16.0dp" app:tme_def_res_name="@string/question_close_btn" />
+        <FrameLayout android:id="@id/container_result_suc" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_success_bg" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="62.0dp">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="11.0dp" android:textColor="#fff1b4" android:layout_gravity="center_horizontal" android:id="@id/tv_result_suc_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_question_result_suc" />
+                    <TextView android:textSize="8.0dp" android:textColor="#8f9ab2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_result_suc_subtitle" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/tme_question_result_suc_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/container_result_finish" android:visibility="gone" android:layout_width="match_parent" android:layout_height="105.0dp">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_result_mask" />
+            <TextView android:textSize="11.0dp" android:textColor="#e5f2ff" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_result_finish_title" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_question_result_finish" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_line" android:background="@color/tme_tab_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginRight="@dimen/tme_setting_right_margin" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.tencent.tme.live.framework.view.base.TMETabView android:id="@id/img_select" android:layout_width="@dimen/tme_danmu_size_bar_size" android:layout_height="@dimen/tme_danmu_size_bar_size" app:tme_act_res_name="@string/player_button_clarity_selected" app:tme_def_res_name="@string/player_button_clarity_unselected" />
+        <TextView android:textSize="12.0dp" android:textColor="@color/tme_setting_txt_color" android:id="@id/txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dp" />
+    </LinearLayout>
+    <View android:background="@color/tme_tab_line" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginRight="10.0dp" />
+</LinearLayout>

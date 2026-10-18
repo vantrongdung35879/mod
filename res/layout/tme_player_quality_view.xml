@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.LinearGradientView android:layout_width="match_parent" android:layout_height="match_parent" app:endColor="@color/tme_setting_end_color" app:endX="0.65" app:startColor="@color/tme_setting_start_color" app:startX="0.2" />
+    <LinearLayout android:layout_gravity="right|center" android:orientation="vertical" android:id="@id/list_layout" android:focusable="true" android:clickable="true" android:layout_width="250.0dp" android:layout_height="wrap_content" />
+</FrameLayout>

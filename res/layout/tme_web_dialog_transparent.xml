@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/web_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.webview.TMEWebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="match_parent" app:transparent="true" />
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_close" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginTop="39.0dp" android:layout_marginRight="8.0dp" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:tme_def_res_name="@string/poptv_close" />
+</RelativeLayout>

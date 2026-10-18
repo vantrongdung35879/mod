@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tmes_halftransparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/background_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_background" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_top_title" android:layout_width="440.0dp" android:layout_height="50.0dp" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/player_border_container" android:background="@color/tme_transparent" android:layout_width="@dimen/tmes_poptv_player_border_width" android:layout_height="@dimen/tmes_poptv_player_border_height" android:layout_marginTop="@dimen/tmes_poptv_player_border_topmargin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_player_border" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <com.tencent.tme.live.player.playerview.ui.SamplePlayerView android:id="@id/player_view" android:layout_width="@dimen/tmes_poptv_player_width" android:layout_height="@dimen/tmes_poptv_player_height" android:layout_marginTop="@dimen/tmes_poptv_player_topmargin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.tencent.tme.live.poptv.ui.ScoreBar android:id="@id/scorebar" android:layout_width="@dimen/tmes_poptv_player_width" android:layout_height="@dimen/tmes_poptv_scorebar_height" android:layout_marginTop="@dimen/tmes_poptv_player_topmargin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/container_close" android:paddingTop="10.0dp" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tmes_poptv_close_top_margin" android:layout_marginRight="@dimen/tmes_poptv_close_right_margin" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="left|bottom" android:id="@id/iv_close" android:layout_width="20.0dp" android:layout_height="20.0dp" android:scaleType="fitXY" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/jump_container" android:layout_width="@dimen/tmes_poptv_player_width" android:layout_height="@dimen/tmes_poptv_operation_container_height" android:layout_below="@id/player_border_container" android:layout_centerHorizontal="true">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_bottom_operation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_jump_2_tv" android:layout_width="@dimen/tmes_poptv_jumpbt_width" android:layout_height="@dimen/tmes_poptv_jumpbt_height" android:layout_marginRight="@dimen/tmes_poptv_jumpbt_rightmargin" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extractor_error_dialog_message">可能因为您的内存空间不足，清理您的手机内存后重启游戏试试。</string>
+    <string name="extractor_error_dialog_positive_btn">确定</string>
+    <string name="extractor_error_dialog_title">提示</string>
+    <string name="extractor_tips">正在解压资源，此过程不消耗流量（首次解压资源耗时较长，请耐心等待。后续启动速度提升70%）</string>
+    <string name="fix">Open Settings</string>
+    <string name="msdk_bind_account_exists">* 此邮箱已注册，请使用另一个邮箱</string>
+    <string name="msdk_bind_and">%1$s和%2$s</string>
+    <string name="msdk_bind_button_confirm">确认</string>
+    <string name="msdk_bind_button_next">下一步</string>
+    <string name="msdk_bind_email_hint">Gameplayer@gmail.com</string>
+    <string name="msdk_bind_enter_valid_verification_code">* 请输入有效的验证码</string>
+    <string name="msdk_bind_enter_verification_code">请输入验证码</string>
+    <string name="msdk_bind_enter_your_email">请输入您的电子邮件</string>
+    <string name="msdk_bind_not_get_verification_code">没有收到验证码?</string>
+    <string name="msdk_bind_please_enter_valid_email">* 请输入一个有效的电子邮件地址</string>
+    <string name="msdk_bind_privacy_policy">隐私政策</string>
+    <string name="msdk_bind_receive_email_notice">接收消息和更新</string>
+    <string name="msdk_bind_resend">重新发送</string>
+    <string name="msdk_bind_terms_of_service">服务条款</string>
+    <string name="msdk_bind_verification_sent_notification">验证码已经发送到您的邮箱 %1$s</string>
+    <string name="msdk_bind_you_are_all_set">全部完成</string>
+    <string name="msdk_webview_cancel">取消</string>
+    <string name="msdk_webview_save_photo">存储图像</string>
+    <string name="msdk_webview_share_browser">浏览器</string>
+    <string name="msdk_webview_share_facebook">Facebook</string>
+    <string name="msdk_webview_share_moment">朋友圈</string>
+    <string name="msdk_webview_share_qq">QQ</string>
+    <string name="msdk_webview_share_qzone">QQ空间</string>
+    <string name="msdk_webview_share_wechat">微信</string>
+    <string name="msdk_webview_sure">确认</string>
+    <string name="package_is_invaild">Install Error: Please uninstall the application and redownload the game from Google Play.</string>
+    <string name="package_is_invaild_title" />
+    <string name="quit">Exit</string>
+    <string name="retry">Retry</string>
+    <string name="share_browser">Browser</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_facebook">Facebook</string>
+    <string name="share_failure">分享失败</string>
+    <string name="share_icon_desc">icon desc</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_wechat">微信</string>
+    <string name="submit">Confirm</string>
+    <string name="u_must_agree_me">"This game requires you to grant the following permissions! Please enable these items: 
+
+Storage: Required to install and load critical game resources."</string>
+    <string name="u_must_agree_me_title">Error: Permission request denied</string>
+    <string name="u_need_agree_me">"You will be prompted to grant several permissions. The game requires you to grant all these permissions in order to avoid flashbacks. 
+
+Storage: Required to install and load critical game resources."</string>
+    <string name="u_need_agree_me_title">Permission Request</string>
+    <string name="u_need_fix_config">"In order to run the game, please grant all needed system permissions. Please enter the settings menu of your device to set permissions. 
+
+Storage: Storage needed will include the game itself and related resource packs."</string>
+    <string name="u_need_fix_config_title">Error: Permission request denied</string>
+</resources>

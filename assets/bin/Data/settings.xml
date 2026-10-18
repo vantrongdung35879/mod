@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <integer name="gles_mode">0</integer>
+  <integer name="splash_mode">2</integer>
+  <bool name="hide_status_bar">True</bool>
+  <bool name="useObb">False</bool>
+<bool name="19079716aab7eb1903f5ed64687e9f5a">True</bool><bool name="deliverysplit_enable">False</bool><bool name="AAB">True</bool></settings>

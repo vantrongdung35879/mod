@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/right_side_tabBar" android:layout_width="match_parent" android:layout_height="@dimen/tme_right_shatter_tabbar_height" android:layout_marginTop="@dimen/tme_right_slide_topbar_height" />
+    <FrameLayout android:id="@id/right_side_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

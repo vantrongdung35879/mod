@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center" android:id="@id/iv_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="#d43446" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dp" android:layout_marginTop="23.0dp" android:layout_marginRight="13.0dp" android:maxLines="2" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="7.0dp">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/packet_reward_bg" />
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center" android:id="@id/iv_gift_pic" android:layout_width="34.0dp" android:layout_height="34.0dp" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <TextView android:textSize="9.0dp" android:textStyle="normal" android:textColor="#aa6e40" android:layout_gravity="center_horizontal" android:id="@id/tv_gift_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="皮肤碎片 * 623" android:maxLines="1" />
+        <TextView android:textSize="9.0dp" android:textStyle="normal" android:textColor="#db6763" android:layout_gravity="center_horizontal" android:id="@id/tv_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="数量: 1000" android:maxLines="1" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/fl_timer_button" android:layout_width="62.0dp" android:layout_height="62.0dp" android:layout_marginBottom="60.0dp">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_timer" android:layout_width="62.0dp" android:layout_height="62.0dp" android:scaleType="centerCrop" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center" android:id="@id/tv_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/fl_grab_button" android:visibility="gone" android:layout_width="62.0dp" android:layout_height="62.0dp" android:layout_marginBottom="60.0dp">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_grab" android:layout_width="62.0dp" android:layout_height="62.0dp" android:scaleType="centerCrop" />
+    </FrameLayout>
+</FrameLayout>

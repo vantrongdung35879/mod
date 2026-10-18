@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/tme_box_rect_size" android:layout_height="@dimen/tme_box_rect_size">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_box_bg" android:layout_width="@dimen/tme_box_rect_size" android:layout_height="@dimen/tme_box_rect_size" app:tme_def_res_name="@string/reward_bg_reward_item" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center" android:id="@id/img_box_icon" android:layout_width="@dimen/tme_box_size" android:layout_height="@dimen/tme_box_size" />
+        <ImageView android:layout_gravity="center" android:id="@id/img_box_icon_cover" android:visibility="gone" android:layout_width="@dimen/tme_box_size" android:layout_height="@dimen/tme_box_size" android:src="@color/tme_reward_img_received_cover" />
+        <TextView android:textSize="9.0dp" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/text_box_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dp" />
+    </FrameLayout>
+    <TextView android:textSize="9.0dp" android:textColor="@color/tme_reward_time_unreceive_color" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/text_time_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dp" />
+</LinearLayout>

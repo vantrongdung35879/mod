@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="8.0dp" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_line_progress_bg" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="left" android:id="@id/iv_background_left" android:layout_width="@dimen/tme_question_progress_arrow_width" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_line_progress_yellow" />
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right" android:id="@id/iv_background_right" android:layout_width="@dimen/tme_question_progress_arrow_width" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_line_progress_blue_right" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/quesiton_progress_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/tme_question_progress_arrow_width" android:layout_marginRight="@dimen/tme_question_progress_arrow_width">
+                <View android:layout_gravity="left" android:id="@id/question_progress_left" android:background="@color/tme_question_left_yellow" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <View android:layout_gravity="right" android:id="@id/question_progress_right" android:background="@color/tme_question_right_blue" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="left|center" android:id="@id/question_dot_bar" android:layout_width="@dimen/tme_question_progress_dot_width" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_line_progress_mid_bar" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_gravity="left|center" android:orientation="horizontal" android:id="@id/count_container_left" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5.0dp">
+                    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_vertical" android:id="@id/iv_head_left" android:layout_width="7.0dp" android:layout_height="7.0dp" app:tme_def_res_name="@string/question_people_brown" />
+                    <TextView android:textSize="7.0dp" android:textColor="#6f3700" android:gravity="center_vertical" android:id="@id/tv_count_left" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="1.0dp" android:layout_marginTop="-1.0dp" android:text="0" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="right|center" android:orientation="horizontal" android:id="@id/count_container_right" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5.0dp">
+                    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_vertical" android:id="@id/iv_head_right" android:layout_width="7.0dp" android:layout_height="7.0dp" app:tme_def_res_name="@string/question_people_white" />
+                    <TextView android:textSize="7.0dp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@id/tv_count_right" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="1.0dp" android:layout_marginTop="-1.0dp" android:text="0" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

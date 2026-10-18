@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="right|center" android:layout_gravity="right" android:orientation="vertical" android:paddingLeft="@dimen/tme_setting_right_margin" android:paddingRight="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="right|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@color/tme_setting_line" android:layout_width="240.0dp" android:layout_height="0.5dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:clickable="true" android:layout_width="240.0dp" android:layout_height="73.0dp">
+            <TextView android:textSize="11.0dp" android:textColor="@color/tme_setting_txt_color" android:layout_width="67.0dp" android:layout_height="wrap_content" android:text="@string/tme_danmu_position" />
+            <com.tencent.tme.live.framework.view.base.TMETabView android:id="@id/img_full_screen" android:layout_width="26.0dp" android:layout_height="21.0dp" app:tme_act_res_name="@string/chat_icon_fullbullet_selected" app:tme_def_res_name="@string/chat_icon_fullbullet_unselected" />
+            <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <com.tencent.tme.live.framework.view.base.TMETabView android:id="@id/img_up_screen" android:layout_width="26.0dp" android:layout_height="21.0dp" app:tme_act_res_name="@string/chat_icon_upbullet_selected" app:tme_def_res_name="@string/chat_icon_upbullet_unselected" app:tme_is_act="true" />
+            <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <com.tencent.tme.live.framework.view.base.TMETabView android:id="@id/img_down_screen" android:layout_width="26.0dp" android:layout_height="21.0dp" app:tme_act_res_name="@string/chat_icon_lowbullet_selected" app:tme_def_res_name="@string/chat_icon_lowbullet_unselected" />
+        </LinearLayout>
+        <View android:background="@color/tme_tab_line" android:layout_width="240.0dp" android:layout_height="0.5dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:clickable="true" android:layout_width="240.0dp" android:layout_height="73.0dp">
+            <TextView android:textSize="11.0dp" android:textColor="@color/tme_setting_txt_color" android:layout_width="67.0dp" android:layout_height="wrap_content" android:text="@string/tme_danmu_size" />
+            <com.tencent.tme.live.danmu.DanmuSizeBar android:id="@id/danmu_size_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/tme_tab_line" android:layout_width="240.0dp" android:layout_height="0.5dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:clickable="true" android:layout_width="240.0dp" android:layout_height="73.0dp">
+            <TextView android:textSize="10.0dp" android:textColor="@color/tme_setting_txt_color" android:layout_width="67.0dp" android:layout_height="wrap_content" android:text="@string/tme_danmu_alpha" />
+            <com.tencent.tme.live.danmu.DanmuSeekBar android:id="@id/danmu_seek_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/tme_tab_line" android:layout_width="240.0dp" android:layout_height="0.5dp" />
+    </LinearLayout>
+    <TextView android:textSize="8.0dp" android:textColor="@color/tme_setting_txt_gray_color" android:gravity="right" android:layout_gravity="end|bottom" android:id="@id/plugin_version" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="80.0dp" android:layout_height="wrap_content" android:singleLine="true" />
+</FrameLayout>

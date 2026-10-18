@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48.0dp">
+        <TextView android:id="@id/tv_0" style="@style/MSDK.VerificationCode.TextView" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_1" style="@style/MSDK.VerificationCode.TextView" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_2" style="@style/MSDK.VerificationCode.TextView" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_3" style="@style/MSDK.VerificationCode.TextView" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_4" style="@style/MSDK.VerificationCode.TextView" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_5" style="@style/MSDK.VerificationCode.TextView" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="42.0dp">
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_gravity="bottom" android:background="@color/msdk_inner_bg_color_000000" android:layout_width="@dimen/msdk_bind_verify_code_view_width" android:layout_height="1.0dp" />
+    </LinearLayout>
+    <com.tencent.gcloud.msdk.api.login.ui.MSDKVerifyCodeEditText android:textColor="@color/msdk_inner_bg_color_ffffffff" android:id="@id/edit_text_view" android:background="@color/msdk_inner_bg_color_ffffffff" android:longClickable="false" android:layout_width="match_parent" android:layout_height="48.0dp" android:maxLength="6" android:inputType="number" />
+</RelativeLayout>

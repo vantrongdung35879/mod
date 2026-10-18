@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container_root" android:background="@drawable/question_dialog_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_question" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right|top" android:id="@id/iv_close" android:layout_width="16.0dp" android:layout_height="16.0dp" app:tme_def_res_name="@string/question_close_btn" />
+        <FrameLayout android:id="@id/window_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" app:tme_def_res_name="@string/question_bg_big" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/container_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                    <TextView android:textSize="11.0dp" android:textStyle="bold" android:textColor="#e5f2ff" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:maxWidth="@dimen/tme_question_title_max_width" android:maxLines="2" android:layout_toLeftOf="@id/ring_timer_bar" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <com.tencent.tme.live.question.ui.RingGradientProgress android:id="@id/ring_timer_bar" android:layout_width="18.5dp" android:layout_height="18.5dp" android:layout_marginRight="7.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <FrameLayout android:id="@id/container_subtitle" android:layout_width="match_parent" android:layout_height="13.0dp" android:layout_marginLeft="8.0dp" android:layout_marginTop="6.0dp" android:layout_marginRight="8.0dp">
+                    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" app:tme_def_res_name="@string/question_desc_bg" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5.0dp" android:paddingRight="2.0dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <TextView android:textSize="8.0dp" android:textColor="#ffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_subtitle" android:paddingBottom="1.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/tme_question_subtitle_prefix" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    </LinearLayout>
+                </FrameLayout>
+                <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include android:id="@id/option0" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/tme_quesiton_option_item" />
+                        <include android:id="@id/option1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/tme_quesiton_option_item" />
+                        <include android:id="@id/option2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/tme_quesiton_option_item" />
+                        <include android:id="@id/option3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/tme_quesiton_option_item" />
+                        <include android:id="@id/option4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/tme_quesiton_option_item" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/container_exception_toast" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32.0dp">
+                <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_exception_toast" android:layout_width="match_parent" android:layout_height="match_parent" app:tme_def_res_name="@string/question_toast_bg" />
+                <TextView android:textSize="11.0dp" android:textColor="@color/tme_exception_toast" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_exception_toast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_question_network_browken" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.tencent.tme.live.question.ui.QuestionResultWindow android:id="@id/container_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</RelativeLayout>

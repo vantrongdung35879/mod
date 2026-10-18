@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/redpacket_entry_width" android:layout_height="@dimen/redpacket_entry_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_horizontal" android:id="@id/iv_icon" android:layout_width="23.0dp" android:layout_height="28.0dp" android:layout_marginTop="7.5dp" android:scaleType="centerCrop" />
+        <TextView android:textSize="7.0dp" android:textColor="#191a2c" android:gravity="center" android:layout_gravity="right|top" android:id="@id/tv_count" android:layout_width="14.0dp" android:layout_height="14.0dp" android:layout_marginRight="5.0dp" android:maxLines="1" />
+    </FrameLayout>
+    <TextView android:textSize="6.0dp" android:textColor="#e5f2ff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/tv_title" android:layout_width="24.0dp" android:layout_height="wrap_content" android:text="活动" android:maxLines="1" />
+</LinearLayout>

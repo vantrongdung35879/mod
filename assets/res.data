@@ -1,0 +1,174 @@
+{
+    "armeabi-v7a": [
+        {
+            "path": "/armeabi-v7a/libil2cpp.so", 
+            "md5": "19135c1ed032d20526c9a0e34cd9b17b"
+        }, 
+        {
+            "path": "/armeabi-v7a/libunity.so", 
+            "md5": "c2d9cc05c2caa439d43e5b12d5b4a386"
+        }, 
+        {
+            "path": "/armeabi-v7a/libgcloud.so", 
+            "md5": "3bf994a7ba9b9d02269d0c9cc7fa5fed"
+        }, 
+        {
+            "path": "/armeabi-v7a/libGCloudVoice.so", 
+            "md5": "0c26e925eca34a6a5369f80695585c72"
+        }, 
+        {
+            "path": "/armeabi-v7a/libanogs.so", 
+            "md5": "d04bdeefd1a009dedcd55ba6797cfec7"
+        }, 
+        {
+            "path": "/armeabi-v7a/libaovai.so", 
+            "md5": "4373c6ffc2f9f7c4f9288bab2496a7ba"
+        }, 
+        {
+            "path": "/armeabi-v7a/libINTLCore.so", 
+            "md5": "abbba1a9776f1d186d006e3a2b153397"
+        }, 
+        {
+            "path": "/armeabi-v7a/libAkSoundEngine.so", 
+            "md5": "948c3558ae024edc4d7e8c1fb374382b"
+        }, 
+        {
+            "path": "/armeabi-v7a/libINTLFoundation.so", 
+            "md5": "c1a16631820d364933a2e8afff226681"
+        }, 
+        {
+            "path": "/armeabi-v7a/libgcloudcore.so", 
+            "md5": "651666d5c04e19b6b2ddf296e3fef8ee"
+        }, 
+        {
+            "path": "/armeabi-v7a/libGmeVideoFFmpeg.so", 
+            "md5": "a9b97b8b0633041ea265044cd69fd8ae"
+        }, 
+        {
+            "path": "/armeabi-v7a/libGmeVideoPlayer.so", 
+            "md5": "7617475b2d8efd6fa1f506e6ddc47641"
+        }, 
+        {
+            "path": "/armeabi-v7a/libPixFFmpeg.so", 
+            "md5": "c338ef0b9572699091492bb2c18e8c0e"
+        }, 
+        {
+            "path": "/armeabi-v7a/libPixVideo.so", 
+            "md5": "fe19ce8b7b90db7d664dd95ffb75ad5d"
+        }, 
+        {
+            "path": "/armeabi-v7a/libvideotexture.so", 
+            "md5": "15c18c3168fac1814bd1d698ca8ba38a"
+        }, 
+        {
+            "path": "/armeabi-v7a/libpuerts.so", 
+            "md5": "a26fc5626e0ed4c7ed4110872fbc2d84"
+        }, 
+        {
+            "path": "/armeabi-v7a/libPxExtFFi.so", 
+            "md5": "240707070bd8f9f2c1c519c8df3d74e9"
+        }, 
+        {
+            "path": "/armeabi-v7a/libPixUI_Unity.so", 
+            "md5": "7f83432aca0e3ad2f2960b6a698e5351"
+        }, 
+        {
+            "path": "/armeabi-v7a/libgsdk.so", 
+            "md5": "fb3c6e0eed9b1ac430d9134f664d5169"
+        }, 
+        {
+            "path": "/armeabi-v7a/libGmeVideoSDK.so", 
+            "md5": "6e1edd81a578d53dc8f2068ee8ce8c01"
+        }, 
+        {
+            "path": "/Managed/Metadata/global-metadata.dat", 
+            "md5": "86d7804c34a21cf30ceb45b7b0488298"
+        }
+    ], 
+    "arm64-v8a": [
+        {
+            "path": "/arm64-v8a/libil2cpp.so", 
+            "md5": "bfaca44d543d5be3adb674cd9b1e3ec9"
+        }, 
+        {
+            "path": "/arm64-v8a/libunity.so", 
+            "md5": "1cdd63cf9a72d63331c0cf0235a89ff8"
+        }, 
+        {
+            "path": "/arm64-v8a/libgcloud.so", 
+            "md5": "2d023cdcdd0b52786b122fc65893568f"
+        }, 
+        {
+            "path": "/arm64-v8a/libGCloudVoice.so", 
+            "md5": "0544479fd37e0fd04a8381fe32093765"
+        }, 
+        {
+            "path": "/arm64-v8a/libanogs.so", 
+            "md5": "6e8091f11ab5f2720f794e6a41079090"
+        }, 
+        {
+            "path": "/arm64-v8a/libaovai.so", 
+            "md5": "7f378cd488ac40b6564194d55c693a5a"
+        }, 
+        {
+            "path": "/arm64-v8a/libINTLCore.so", 
+            "md5": "d93089edec9b456aa30cfcb495f65e53"
+        }, 
+        {
+            "path": "/arm64-v8a/libAkSoundEngine.so", 
+            "md5": "4d75eae87964304dd92c34c2d32d823b"
+        }, 
+        {
+            "path": "/arm64-v8a/libINTLFoundation.so", 
+            "md5": "ee3b48d3c6b28dc0988d7796572ae158"
+        }, 
+        {
+            "path": "/arm64-v8a/libgcloudcore.so", 
+            "md5": "826f087052f9e6cad53da66ae6354b69"
+        }, 
+        {
+            "path": "/arm64-v8a/libGmeVideoFFmpeg.so", 
+            "md5": "418ec6da23ad95f2ce7a7cfabfbb2546"
+        }, 
+        {
+            "path": "/arm64-v8a/libGmeVideoPlayer.so", 
+            "md5": "5c0e1072bf0280a63b03b4f83a2ece8a"
+        }, 
+        {
+            "path": "/arm64-v8a/libPixFFmpeg.so", 
+            "md5": "8dd40a2591a75e90cc160662fc623585"
+        }, 
+        {
+            "path": "/arm64-v8a/libPixVideo.so", 
+            "md5": "4d5c9d59840fb87a0e9a3e63c1dbcb6d"
+        }, 
+        {
+            "path": "/arm64-v8a/libvideotexture.so", 
+            "md5": "4063a8ab02bda137bdd94654cd1a4ac2"
+        }, 
+        {
+            "path": "/arm64-v8a/libpuerts.so", 
+            "md5": "cc260be596178abedae9b16b02a28a01"
+        }, 
+        {
+            "path": "/arm64-v8a/libPxExtFFi.so", 
+            "md5": "610c7ec2c40347948a918c3df066f8d4"
+        }, 
+        {
+            "path": "/arm64-v8a/libPixUI_Unity.so", 
+            "md5": "d2d57369b1a3f87f9c08db3e8629e95c"
+        }, 
+        {
+            "path": "/arm64-v8a/libgsdk.so", 
+            "md5": "2b68b1ec165fda1b7d2b3ce62cb8b01a"
+        }, 
+        {
+            "path": "/arm64-v8a/libGmeVideoSDK.so", 
+            "md5": "9faafdb1d789e501ac59445ffb195b6f"
+        }, 
+        {
+            "path": "/Managed/Metadata/global-metadata.dat", 
+            "md5": "86d7804c34a21cf30ceb45b7b0488298"
+        }
+    ]
+}

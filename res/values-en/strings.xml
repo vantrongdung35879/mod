@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="HD">HD</string>
+    <string name="btn_quality_string">Quality</string>
+    <string name="fix">Open Settings</string>
+    <string name="msdk_bind_account_exists">* This email address has been registered, please use another one</string>
+    <string name="msdk_bind_and">%1$s and %2$s</string>
+    <string name="msdk_bind_button_confirm">CONFIRM</string>
+    <string name="msdk_bind_button_next">NEXT</string>
+    <string name="msdk_bind_email_hint">Gameplayer@gmail.com</string>
+    <string name="msdk_bind_enter_valid_verification_code">* Please enter a valid verification code</string>
+    <string name="msdk_bind_enter_verification_code">Enter verification code</string>
+    <string name="msdk_bind_enter_your_email">Enter your email</string>
+    <string name="msdk_bind_not_get_verification_code">"Didn't get the code?"</string>
+    <string name="msdk_bind_please_enter_valid_email">* Please enter a valid email address.</string>
+    <string name="msdk_bind_privacy_policy">Privacy Policy</string>
+    <string name="msdk_bind_receive_email_notice">Receive news and updates.</string>
+    <string name="msdk_bind_resend">Resend</string>
+    <string name="msdk_bind_terms_of_service">Terms of Service</string>
+    <string name="msdk_bind_verification_sent_notification">A verification code has been sent to your email %1$s</string>
+    <string name="msdk_bind_you_are_all_set">"You're all set!"</string>
+    <string name="package_is_invaild">Install Error: Please uninstall the application and redownload the game from Google Play.</string>
+    <string name="package_is_invaild_title" />
+    <string name="quit">Exit</string>
+    <string name="retry">Retry</string>
+    <string name="submit">Confirm</string>
+    <string name="timeout_tips">The network is not smooth, please try again later!</string>
+    <string name="u_must_agree_me">"You will be prompted to grant several permissions. The game requires you to grant all these permissions in order to avoid flashbacks. 
+
+Storage: Required to install and load critical game resources."</string>
+    <string name="u_must_agree_me_title">Error: Permission request denied</string>
+    <string name="u_need_agree_me">"You will be prompted to grant several permissions. The game requires you to grant all these permissions in order to avoid flashbacks. 
+
+Storage: Required to install and load critical game resources."</string>
+    <string name="u_need_agree_me_title">Permission Request</string>
+    <string name="u_need_fix_config">"You will be prompted to grant several permissions. The game requires you to grant all these permissions in order to avoid flashbacks. 
+
+Storage: Required to install and load critical game resources."</string>
+    <string name="u_need_fix_config_title">Error: Permission request denied</string>
+</resources>

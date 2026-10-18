@@ -1,0 +1,93 @@
+.class public final Lcom/google/android/gms/auth/api/R$attr;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/auth/api/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "attr"
+.end annotation
+
+
+# static fields
+.field public static alpha:I = 0x7f04002c
+
+.field public static buttonSize:I = 0x7f04008f
+
+.field public static circleCrop:I = 0x7f0400c2
+
+.field public static colorScheme:I = 0x7f040106
+
+.field public static coordinatorLayoutStyle:I = 0x7f040142
+
+.field public static drawerLayoutStyle:I = 0x7f04018b
+
+.field public static elevation:I = 0x7f040194
+
+.field public static font:I = 0x7f0401f6
+
+.field public static fontProviderAuthority:I = 0x7f0401f8
+
+.field public static fontProviderCerts:I = 0x7f0401f9
+
+.field public static fontProviderFetchStrategy:I = 0x7f0401fa
+
+.field public static fontProviderFetchTimeout:I = 0x7f0401fb
+
+.field public static fontProviderPackage:I = 0x7f0401fc
+
+.field public static fontProviderQuery:I = 0x7f0401fd
+
+.field public static fontProviderSystemFontFamily:I = 0x7f0401fe
+
+.field public static fontStyle:I = 0x7f0401ff
+
+.field public static fontVariationSettings:I = 0x7f040200
+
+.field public static fontWeight:I = 0x7f040201
+
+.field public static imageAspectRatio:I = 0x7f040229
+
+.field public static imageAspectRatioAdjust:I = 0x7f04022a
+
+.field public static keylines:I = 0x7f04025b
+
+.field public static lStar:I = 0x7f04025c
+
+.field public static layout_anchor:I = 0x7f040267
+
+.field public static layout_anchorGravity:I = 0x7f040268
+
+.field public static layout_behavior:I = 0x7f040269
+
+.field public static layout_dodgeInsetEdges:I = 0x7f040296
+
+.field public static layout_insetEdge:I = 0x7f04029f
+
+.field public static layout_keyline:I = 0x7f0402a0
+
+.field public static nestedScrollViewStyle:I = 0x7f04033a
+
+.field public static queryPatterns:I = 0x7f040371
+
+.field public static scopeUris:I = 0x7f040382
+
+.field public static shortcutMatchRequired:I = 0x7f04039a
+
+.field public static statusBarBackground:I = 0x7f0403cf
+
+.field public static ttcIndex:I = 0x7f0404a2
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

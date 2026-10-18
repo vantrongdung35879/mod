@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/state_layout" android:background="@color/tme_warn_bg" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_state" android:layout_width="60.0dp" android:layout_height="60.0dp" ptr:tme_def_res_name="@string/player_icon_play_big" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" />
+    </FrameLayout>
+    <TextView android:textSize="11.0dp" android:textColor="@color/tme_white" android:id="@id/txt_warn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" />
+</LinearLayout>

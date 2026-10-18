@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/iv_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="#d43446" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dp" android:layout_marginTop="49.0dp" android:layout_marginRight="13.0dp" android:maxLines="3" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_horizontal" android:id="@id/iv_gift_pic" android:visibility="gone" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginTop="10.0dp" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dp">
+            <TextView android:textSize="9.0dp" android:textColor="#aa6e40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reward_prefix" />
+            <TextView android:textSize="9.0dp" android:textStyle="normal" android:textColor="#aa6e40" android:layout_gravity="center_horizontal" android:id="@id/tv_gift_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="皮肤碎片 * 623" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp">
+            <TextView android:textSize="9.0dp" android:textColor="#db6763" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reward_desc_prefix" />
+            <TextView android:textSize="9.0dp" android:textStyle="normal" android:textColor="#db6763" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_gift_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

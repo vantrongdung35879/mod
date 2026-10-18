@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/tme_reward_tip_bg" android:padding="8.0dp" android:layout_width="@dimen/tme_box_tips_w" android:layout_height="@dimen/tme_box_tips_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dp" android:textColor="#c3d4e5" android:ellipsize="end" android:id="@id/text_tip_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <TextView android:textSize="9.0dp" android:textColor="#8fa3cc" android:id="@id/text_tip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="可用于领取兑换英雄\n疯狂大舅副科级\n疯狂大舅副科级" android:maxLength="50" />
+</LinearLayout>

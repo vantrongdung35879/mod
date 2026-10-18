@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="11.0dp" android:textColor="@color/tme_chat_hotword_list_color" android:ellipsize="end" android:id="@id/hotword_context" android:paddingTop="@dimen/tme_setting_right_margin" android:paddingRight="@dimen/tme_setting_right_margin" android:paddingBottom="@dimen/tme_setting_right_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

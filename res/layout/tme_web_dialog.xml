@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/web_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/main_bg" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/titlebar" android:layout_width="match_parent" android:layout_height="31.0dp">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/icon_back" android:layout_width="47.0dp" android:layout_height="31.0dp" app:tme_def_res_name="@string/main_icon_back" />
+        <TextView android:textSize="12.0dp" android:textStyle="bold" android:textColor="@color/tme_white" android:gravity="center_vertical" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5.0dp" android:text="kdfjakf" android:lines="1" />
+    </LinearLayout>
+    <com.tencent.tme.live.framework.view.webview.TMEWebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/titlebar" />
+</RelativeLayout>

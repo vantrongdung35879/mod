@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/main_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/main_bg" />
+    <View android:id="@id/tab_line" android:background="@color/tme_tab_line" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="30.0dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebar" android:layout_width="match_parent" android:layout_height="@dimen/tme_live_tab_height">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_back" android:layout_width="47.0dp" android:layout_height="@dimen/tme_live_tab_height" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/titlebar" />
+    <FrameLayout android:id="@id/operation" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tme_chat_schedule_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/scoreboard_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/icon_score" android:layout_width="match_parent" android:layout_height="28.0dp" ptr:tme_def_res_name="@string/match_charts_back" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="28.0dp">
+            <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="15.0dp" android:layout_height="16.0dp" ptr:tme_def_res_name="@string/match_charts_icon" />
+            <TextView android:textSize="9.0dp" android:textColor="#e5f2ff" android:id="@id/scoreboard_score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dp" android:text="@string/tme_scoreboard" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.tencent.tme.ui.pulltorefresh.library.PullToRefreshListView android:id="@id/refresh_list" android:paddingTop="3.0dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:cacheColorHint="#00000000" android:divider="@null" android:layout_above="@id/scoreboard_layout" ptr:tme_ptrAnimationStyle="flip" ptr:tme_ptrHeaderBackground="#00000000" ptr:tme_ptrHeaderSubTextColor="#999999" ptr:tme_ptrHeaderTextColor="#333333" ptr:tme_ptrListViewExtrasEnabled="false" ptr:tme_ptrMode="both" ptr:tme_ptrRefreshableViewBackground="#00000000" ptr:tme_ptrScrollingWhileRefreshingEnabled="true" ptr:tme_ptrShowIndicator="false" />
+</RelativeLayout>

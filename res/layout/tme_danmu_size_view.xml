@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="10.0dp" app:tme_def_res_name="@string/chat_background_wordsize" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:id="@id/img_small" android:layout_width="@dimen/tme_danmu_size_bar_size" android:layout_height="@dimen/tme_danmu_size_bar_size" android:src="@color/tme_transparent" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center" android:id="@id/img_middle" android:layout_width="@dimen/tme_danmu_size_bar_size" android:layout_height="@dimen/tme_danmu_size_bar_size" android:src="@color/tme_transparent" />
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right" android:id="@id/img_big" android:layout_width="@dimen/tme_danmu_size_bar_size" android:layout_height="@dimen/tme_danmu_size_bar_size" android:src="@color/tme_transparent" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/tme_danmu_size_select" android:textColor="@color/tme_setting_txt_gray_color" android:gravity="center" android:id="@id/txt_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_font_small" />
+        <TextView android:textSize="@dimen/tme_danmu_size_select" android:textColor="@color/tme_setting_txt_gray_color" android:gravity="center" android:layout_gravity="center" android:id="@id/txt_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_font_middle" />
+        <TextView android:textSize="@dimen/tme_danmu_size_select" android:textColor="@color/tme_setting_txt_gray_color" android:gravity="center" android:layout_gravity="right" android:id="@id/txt_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_font_big" />
+    </FrameLayout>
+</LinearLayout>

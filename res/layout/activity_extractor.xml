@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/extractor_main_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:background="#80000000" android:layout_width="match_parent" android:layout_height="60.0dp">
+        <RelativeLayout android:id="@id/extractor_progress_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="60.0dp" android:layout_marginEnd="60.0dp">
+            <ImageView android:layout_width="match_parent" android:layout_height="8.0dp" android:src="@drawable/extractor_progress_bg" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/extractor_progress_bar" android:layout_width="match_parent" android:layout_height="8.0dp" android:src="@drawable/extractor_progressbar" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <TextView android:textSize="10.0dp" android:textStyle="bold" android:textColor="#abacb4" android:ellipsize="end" android:id="@id/progress_bar_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extractor_tips" android:lines="2" android:layout_toLeftOf="@id/extractor_progress_number" android:layout_below="@id/extractor_progress_bar" android:layout_marginStart="2.0dp" android:layout_marginEnd="2.0dp" android:layout_alignParentStart="true" />
+            <TextView android:textSize="10.0dp" android:textStyle="bold" android:textColor="#abacb4" android:id="@id/extractor_progress_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_below="@id/extractor_progress_bar" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

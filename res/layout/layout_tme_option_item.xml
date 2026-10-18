@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="26.0dp">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:tme_def_res_name="@string/question_option_bg_short" />
+        <com.tencent.tme.live.question.ui.StrokeTextView android:textSize="11.0dp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="59.0dp" android:text="3:0 HKA胜利" android:maxLines="1" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_loading" android:layout_width="12.5dp" android:layout_height="12.5dp" android:layout_marginLeft="1.0dp" android:scaleType="centerCrop" android:layout_toRightOf="@id/tv_title" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

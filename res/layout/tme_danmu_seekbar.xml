@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/video_bar_seek_bar" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxHeight="2.0dp" android:max="100" android:progressDrawable="@drawable/tme_danmu_selector_seekbar" android:minHeight="2.0dp" android:layout_weight="1.0" />
+    <TextView android:textSize="8.0dp" android:textColor="@color/tme_setting_txt_gray_color" android:gravity="right" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

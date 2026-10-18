@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="50.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="center_horizontal" android:id="@id/iv_icon" android:layout_width="50.0dp" android:layout_height="47.0dp" app:tme_def_res_name="@string/transparent_entrance_icon_defalut" />
+    <TextView android:textSize="8.0dp" android:textColor="@color/tme_reward_enter_text_def_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="活动" android:maxLines="1" />
+</FrameLayout>

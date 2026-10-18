@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/dialog_bg" android:background="@drawable/tme_reward_def_bg" android:layout_width="640.0dp" android:layout_height="360.0dp">
+        <com.tencent.tme.live.framework.view.base.TMEImageView android:layout_gravity="right" android:id="@id/img_closed" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginTop="55.0dp" android:layout_marginRight="58.0dp" app:tme_def_res_name="@string/reward_icon_reward_closed" />
+        <FrameLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="190.0dp" android:layout_marginRight="90.0dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/box_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/progress_bg" android:layout_width="239.0dp" android:layout_height="10.0dp" android:layout_marginLeft="28.0dp" android:layout_marginBottom="19.0dp">
+                <com.tencent.tme.live.reward.RewardProgress android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_width="235.0dp" android:layout_height="6.0dp" android:layout_marginLeft="2.0dp" />
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="#fff1b4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text_toast" android:visibility="gone" android:layout_width="521.0dp" android:layout_height="50.0dp" android:layout_marginTop="147.0dp" android:text="@string/tme_receive_success" />
+        <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:id="@id/title_bar" android:visibility="gone" android:layout_width="446.0dp" android:layout_height="150.0dp" android:layout_marginTop="30.0dp" android:layout_marginRight="10.0dp">
+            <TextView android:textSize="46.0dp" android:gravity="center" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tme_reward_def_title" android:maxLines="2" />
+            <TextView android:textSize="9.0dp" android:textColor="#6c76bd" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/tme_reward_def_content" android:maxLines="2" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
